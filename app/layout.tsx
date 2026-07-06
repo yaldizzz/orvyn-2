@@ -4,8 +4,8 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://orvyn.com.tr'),
   title: 'ORVYN Teknoloji | Yangın Mühendisliği, Ürünler ve Karbon Yönetimi',
-  description: 'ORVYN Teknoloji; yangın mühendisliği, yangın danışmanlığı, periyodik kontroller, acil tahliye planı, yangın ürünleri ve karbon yönetimi çözümleri sunar.',
-  keywords: ['yangın mühendisliği','yangın danışmanlığı','yangın ürünleri','yangın tüpü','yangın dolabı','sprinkler','acil tahliye planı','karbon yönetimi','ORVYN'],
+  description: 'ORVYN Teknoloji; yangın risk analizi, acil durum tahliye planı, yangından korunma ekipmanları, yangın mühendisliği, TS EN, NFPA ve karbon yönetimi çözümleri sunar.',
+  keywords: ['yangın risk analizi','acil durum tahliye planı','yangından korunma ekipmanları','yangın mühendisliği','yangın danışmanlığı','TS EN 671','TS EN 54','TS EN 12845','NFPA','FM Global','sprinkler','yangın tüpü','yangın dolabı','karbon yönetimi','ORVYN'],
   openGraph: {
     title: 'ORVYN Teknoloji',
     description: 'Yangın güvenliği, mühendislik ve karbon yönetimi tek platformda.',

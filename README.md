@@ -1,18 +1,42 @@
-# ORVYN Corporate v6.1
+# ORVYN Corporate v7 - Standards Edition
 
-Sıfırdan hazırlanmış Next.js kurumsal site.
+Bu sürüm ORVYN için yangın mühendisliği, standartlar ve teknik güven yaklaşımı güçlendirilmiş Next.js site paketidir.
 
-## Bu sürümde
-- Açılış videosu sessiz ve otomatik başlar.
-- Kullanıcı tıklaması gerekmeden video bitince ana sayfa açılır.
-- Sesli tanıtım butonu kaldırıldı.
-- Tarayıcı videoyu başlatamazsa site otomatik açılır.
+## Öne çıkanlar
+- Sessiz otomatik intro video
+- Mavi/mor ORVYN marka kimliği
+- Yangın Risk Analizi
+- Acil Durum Tahliye Planı
+- Yangından Korunma Ekipmanları
+- Periyodik Kontrol ve Denetim
+- Yangın Güvenliği Projelendirme
+- Eğitim ve Tatbikat
+- Standartlar ve mevzuat bölümü
+  - Binaların Yangından Korunması Hakkında Yönetmelik
+  - İş Sağlığı ve Güvenliği Mevzuatı
+  - TS EN 671
+  - TS EN 3
+  - TS EN 54
+  - TS EN 12845
+  - NFPA
+  - FM Global Data Sheets
+  - ISO 14064 / ISO 14067
+- Sistemler bölümü
+- Sektörler bölümü
+- Ürünler bölümü
+- Karbon Yönetimi bölümü
+- Teklif sihirbazı
 
-## Kurulum
-```bash
-npm install
-npm run dev
-```
+## GitHub'a yükleme
+ZIP'i değil, ZIP'in içindeki dosya ve klasörleri repo ana dizinine yükleyin:
 
-## Deploy
-GitHub'a yükleyip Vercel'e bağlayın. Framework: Next.js.
+- app
+- components
+- public
+- package.json
+- next.config.mjs
+- tsconfig.json
+- next-env.d.ts
+- README.md
+
+Sonrasında Vercel repo'yu otomatik Next.js olarak algılar.
