@@ -5,7 +5,7 @@ const needs = ['Yangın Tüpü','Yangın Dolabı','Sprinkler Sistemi','FM200 / G
 const places = ['Fabrika','Depo','OSB Tesisi','Ofis','AVM / Mağaza','Otel','Okul','Diğer'];
 export default function OfferWizard(){
   const [need,setNeed]=useState(''); const [place,setPlace]=useState(''); const [size,setSize]=useState('');
-  const mail = useMemo(()=>`mailto:inforvyn@gmail.com?subject=${encodeURIComponent('ORVYN Teklif Talebi')}&body=${encodeURIComponent(`İhtiyaç: ${need}\nTesis: ${place}\nYaklaşık alan: ${size}\n\nAd Soyad:\nTelefon:\nNot:`)}`,[need,place,size]);
+  const mail = useMemo(()=>`mailto:info@orvyn.com.tr?subject=${encodeURIComponent('ORVYN Teklif Talebi')}&body=${encodeURIComponent(`İhtiyaç: ${need}\nTesis: ${place}\nYaklaşık alan: ${size}\n\nAd Soyad:\nTelefon:\nNot:`)}`,[need,place,size]);
   return <div id="teklif" className="wizard panel">
     <div className="eyebrow">Teklif Sihirbazı</div><h2>Ne lazım? Hızlıca seç, teklif için ulaşalım.</h2>
     <label>İhtiyacınız</label><div className="pickGrid">{needs.map(n=><button className={need===n?'active':''} onClick={()=>setNeed(n)} key={n}>{need===n&&<Check size={15}/>} {n}</button>)}</div>
